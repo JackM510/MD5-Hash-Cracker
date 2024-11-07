@@ -21,7 +21,7 @@ if ( isset($_GET['code']) ) {
 <head><title>Jack Marshall PIN Code</title></head>
 <body style="font-family: sans-serif">
 <h1>MD5 PIN Maker</h1>
-<p>This application takes a four digit pin and computes a MD5 hash</p>
+<p>This application takes a four digit PIN and computes a MD5 hash</p>
 <?php
 if ( $error !== false ) {
     print '<p style="color:red">';
@@ -33,10 +33,10 @@ if ( $md5 !== false ) {
     print "<p>MD5 value: ".htmlentities($md5)."</p>";
 }
 ?>
-<p>Please enter a four digit pin key for encoding.</p>
+<p>Please enter a four digit PIN key for encoding.</p>
 <form>
 <input type="text" name="code" value="<?= htmlentities($code) ?>"/>
-<input type="submit" value="Compute MD5 for CODE"/>
+<input type="submit" value="Compute MD5"/>
 </form>
 <p><a href="makepin.php">Reset</a></p>
 <p><a href="index.php">Back to Cracking</a></p>
