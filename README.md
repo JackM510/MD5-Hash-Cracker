@@ -23,7 +23,7 @@ There are three PHP files in this project:
     - Afterwards, a conditional statement is used to check whether the value of $try is equal to the value of the MD5 hash provided by the user.
       - If the hashes are the same, the nested for loop statement will break and the PIN will be returned back to the user.
       - The nested for loop statement will attempt all 10,000 possible combinations and will return "Not Found" if the PIN is not cracked.
-- The **makepin.php** is another page in the application which can create an MD5 hash for a given four digit numeric PIN.
+- The **makepin.php** file is another page in the application which can create an MD5 hash for a given four digit numeric PIN.
   - In the background PHP checks that the input from the user has a length of '4' and that each character provided is a number and between 0-9.
   - If the input matches these conditions, the four digit PIN is hashed using MD5 and is returned to the page for the user to copy and use on index.php.
 - The **md5.php** page is similar to the makepin.php page, however the primary difference is that there are no value restrictions the user can enter.
