@@ -12,7 +12,7 @@ $goodtext = "Not found";
 
 // This if statement attempts to crack the given MD5 hash
 // If there is no MD5 parameter specified, this block won't execute
-if ( isset($_GET['md5']) ) {
+if ( isset($_GET['md5']) && !empty($_GET['md5'])) {
     $time_pre = microtime(true); // The $time_pre variable records the start time when the MD5 crack begins
     $md5 = $_GET['md5']; // The $md5 variable holds the value of the specified MD5 hash
     $txt = "0123456789"; // The $txt variable holds all possible numberic digits in the MD5 hash
