@@ -1,7 +1,7 @@
 # PHP-MD5-Hash-Cracker
 A PHP application which can crack and generate a MD5 hash for a four digit numeric PIN as part of the University of Michigan's Building Web Applications in PHP course.
 
-There are three PHP files in this project. 
+There are three PHP files in this project: 
   - **index.php**
       -  index.php is the main application which can crack a MD5 hash for a four digit numeric PIN.
       -  You can enter an MD5 hash on this page and in the background PHP will attempt to crack the HASH using comparison statements for each number in the PIN.
