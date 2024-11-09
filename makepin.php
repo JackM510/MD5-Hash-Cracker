@@ -2,7 +2,7 @@
 $error = false;
 $md5 = false;
 $code = "";
-if ( isset($_GET['code']) ) {
+if ( isset($_GET['code']) && !empty($_GET['code'])) {
     $code = $_GET['code'];
     if ( strlen($code) != 4 ) {
         $error = "Input must be four numbers";
