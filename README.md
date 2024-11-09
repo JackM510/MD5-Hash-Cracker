@@ -25,9 +25,9 @@ There are three PHP files in this project:
       - The nested for loop statement will attempt all 10,000 possible combinations and will return "Not Found" if the PIN is not cracked.
 - The **makepin.php** file is another page in the application which can create an MD5 hash for a given four digit numeric PIN.
   - In the background PHP checks that the input from the user has a length of '4' and that each character provided is a number and between 0-9.
-  - If the input matches these conditions, the four digit PIN is hashed using MD5 and is returned to the page for the user to copy and use on index.php.
+  - If the input matches these conditions, the four digit PIN is hashed using the MD5 algorithm and is returned to the page for the user to copy and use on index.php.
 - The **md5.php** page is similar to the makepin.php page, however the primary difference is that there are no value restrictions the user can enter.
-  - e.g., the user may enter "hello" or "1234567890" and the PHP code in the background will return the equivelant hash back to the page.
+  - e.g., the user may enter "hello" or "1234567890" and the PHP code in the background will return the equivelant MD5 hash back to the page.
   - This hash can also be used on index.php to verify that index.php can only crack a four digit PIN number.     
   
      
