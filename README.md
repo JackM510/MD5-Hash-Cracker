@@ -18,8 +18,8 @@ There are three PHP files in this project:
 - The PHP code running in the background on **index.php** uses a conditional statement to determine when the user has added a value into the vacant field next to the 'Crack MD5' button.
   - To crack the provided hash, a series of four nested for loops are used to iterate through numbers 0-9 for each position in a four-digit PIN.
   - Each for loop has a variable $numx (where x is either 1-4) and is incremented during each loop iteration.
-  - Within the fourth nested for loop, a variable $try concatenates the values of each $numx into a singular variable.
-    - The $try variable is then hashed using MD5.
+  - Within the fourth nested for loop, a variable $try concatenates the values of each $num(x) into a singular variable.
+    - The $try variable is then hashed using the MD5 algorithm.
     - Afterwards, a conditional statement is used to check whether the value of $try is equal to the value of the MD5 hash provided by the user.
       - If the hashes are the same, the nested for loop statement will break and the PIN will be returned back to the user.
       - The nested for loop statement will attempt all 10,000 possible combinations and will return "Not Found" if the PIN is not cracked.
