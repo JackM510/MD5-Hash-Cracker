@@ -11,7 +11,7 @@ A simple PHP application which can crack and generate a MD5 hash for a four digi
 2. Run the application on your local server from 'index.php'.
 
 # Usage
-To crack a MD5 hash you first need to generate a hash for a four-digit pin. 
+To crack an MD5 hash you first need to generate a hash for a four-digit pin. 
 1. From index.php, select the link 'Make an MD5 PIN'.
 2. Enter in any four-digt pin in the input field and select the 'Compute MD5' button.
 3. The key will generate and render on the makepin.php page. Copy the hash and select the 'Back to Cracking' link.
