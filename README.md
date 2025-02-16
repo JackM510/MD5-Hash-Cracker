@@ -17,10 +17,7 @@ To crack a MD5 hash you first need to generate a hash for a four-digit pin.
 3. The key will generate and render on the makepin.php page. Copy the hash and select the 'Back to Cracking' link.
 4. Paste the hash in the input field on index.php and select the 'Crack MD5' button.
 5. If your PIN is cracked it will be rendered to you on the page, otherwise it will render 'Not Found'.
-
-You can optionally then use the 'MD5 Encoder' link to generate an MD5 hash for any given value.
-6. Enter in any value of your choice and select the 'Compute MD5' button.
+6. You can optionally then use the 'MD5 Encoder' link to generate an MD5 hash for any given value. Enter in any value of your choice and select the 'Compute MD5' button.
 7. The key will generate and render on the md5.php page. Copy the hash and select the 'Back to Cracking' link.
 8. Paste the hash in the input field on index.php and select the 'Crack MD5' button.
-9. Your PIN should render 'Not Found' if your hash value was anything other than a four-digit PIN. 
-This is to illustrate that the application is only capable of cracking an MD5 hashed four-digit PIN.
+9. Your PIN should render 'Not Found' if your hash value was anything other than a four-digit PIN. This is to illustrate that the application is only capable of cracking an MD5 hashed four-digit PIN.
